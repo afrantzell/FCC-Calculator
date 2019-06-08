@@ -1,0 +1,40 @@
+<link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+
+<h1>JS CALCULATOR</h1>
+<div id="calculator">
+  <form>
+    <input type="text" id="display" value = "0" disabled>
+    <br>
+    <div id="keypad">
+      <input type="button" value="7" id = "seven" class="key" onclick='toScreen("7")'>
+      <input type="button" value="8" id = "eight" class="key" onclick="toScreen('8')">
+      <button type="button" class="key" id = "nine" onclick="toScreen('9')">9</button>
+
+      <br>
+      <input type="button" class="key" id = "four" value="4" onclick="toScreen('4')">
+      <button type="button" class="key" id = "five"  onclick="toScreen('5')">5</button>
+      <button type="button" class="key" id = "six" onclick="toScreen('6')">6</button>
+
+      <br>
+      <button type="button" class="key" id = "one" onclick="toScreen('1')">1</button>
+      <button type="button" class="key" id = "two" onclick="toScreen('2')">2</button>
+      <button type="button" class="key" id = "three" onclick="toScreen('3')">3</button>
+      <br>
+
+      <button type="button" class="key" id = "zero" onclick="toScreen('0')">0</button>
+      <button type="button" class="key" id = "decimal" onclick="toScreen('.')">.</button>
+      <button type="button" class="key" id = "equals" onclick="calculate()">=</button>
+      <br>
+
+      <button type="button" class="key" id = "clear-by-one" onclick="toScreen('C')">C</button>
+      <button type="button" class="key" id = "clear" onclick="toScreen('AC')">AC</button>
+      <button type="button" class="key" id = "add" onclick="operate('+')">+</button> 
+      <br>
+
+      <button type="button" class="key" id = "subtract" onclick="operate('-')">-</button>
+      <button type="button" class="key" id = "multiply" onclick="operate('*')">*</button>
+      <button type="button" class="key" id = "divide" onclick="operate('/')">/</button>
+    </div>
+
+  </form>
+</div>

@@ -1,0 +1,52 @@
+body {
+  background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SsLYSh45lizrfzvep/videoblocks-business-woman-using-her-smart-watch-with-green-screen-scrolling-and-tapping-images-female-hands-top-view-office-desk-background-slow-motion-red-epic-businesswoman_bdpl3pn2g_thumbnail-full01.png)
+    no-repeat center;
+
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2.75em;
+  text-shadow: 2px 3px 5px black;
+}
+
+#calculator {
+  width: 250px;
+  height: 350px;
+  background-color: PowderBlue;
+  border: 12px outset PowderBlue;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px black;
+}
+
+#display {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: Gainsboro;
+  height: 30px;
+  width: 10em;
+  text-align: right;
+  font: 20px bold;
+  font-family: "Press Start 2p";
+  box-shadow: inset 4px 5px 5px gray;
+}
+
+.key {
+  width: 70px;
+  height: 35px;
+  margin: 3px;
+  border-radius: 9px;
+  background-color: silver;
+  color: black;
+  font-size: 1em;
+}
+
+#keypad {
+  background-color: beige;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px gray;
+}
